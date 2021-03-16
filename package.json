@@ -1,0 +1,35 @@
+{
+  "name": "grocery-stores",
+  "version": "1.0.0",
+  "description": "selling grocery",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crneerajverma0735/grocery-store.git"
+  },
+  "author": "Neeraj verma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crneerajverma0735/grocery-store/issues"
+  },
+  "homepage": "https://github.com/crneerajverma0735/grocery-store#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.20",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2"
+  }
+}

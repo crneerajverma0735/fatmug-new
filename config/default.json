@@ -1,0 +1,5 @@
+{
+  "jwtSecret":"fatmugsecret",
+  "mongoURI":"mongodb+srv://neeraj123:neeraj8081@devconnector.tjcs8.mongodb.net/fatmug?retryWrites=true&w=majority"
+  
+}
